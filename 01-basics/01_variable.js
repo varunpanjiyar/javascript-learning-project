@@ -1,6 +1,7 @@
 const accountId = 12345
 let emailId = "varunpanjiyar@gmail.com"
 var password = "1234"
+
 accountCity = "Bangluru" 
 password = "321"
 
@@ -18,6 +19,7 @@ console.log(accountId);
 //we can update let there i see that let can update the varibel
  emailId = "arunkumarpanjiyaer@gmail.com"
  console.log(emailId);
+//  console.log(typeOf accountCity) this statement is wrong
  console.table([accountId,emailId,password,accountCity,accountState])
 
 
