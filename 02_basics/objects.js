@@ -1,4 +1,7 @@
-let a= 5
-let b= 6;
-let c= a+b;
-console.log(c);
+let students = {
+    name:"vishal",
+    uid:"20bet1109",
+    class: 9
+}
+
+console.log(students.name, students.uid, students.class);
