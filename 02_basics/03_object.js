@@ -5,3 +5,7 @@ let object ={
 }
 
 console.log(object.name);
+console.log(object.age);
+console.log(object.gmail);
+
+
