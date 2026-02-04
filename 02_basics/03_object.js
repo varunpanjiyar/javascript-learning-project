@@ -21,7 +21,14 @@ let object = {
 
 
 }
+object.gmail = "manish@gmail.com" // here i chnage value of email
+// after using fix we i can't cahnge the value
+Object.freeze(object)
 console.log(object);
+object.name = "gopal"
+console.log(object);
+
+
 
 
 // console.log(object.name);// i can access like this but other method
