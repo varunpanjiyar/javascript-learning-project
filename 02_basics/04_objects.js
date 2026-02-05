@@ -47,19 +47,19 @@ let newArray = { ...obj, ...obj1 }
 let arrayObject = [
     {
         id: "123abc",
-        name :"varun"
+        name: "varun"
     },
     {
-        id:"23bc",
-        name :"manish"
+        id: "23bc",
+        name: "manish"
     },
 ]
 // console.log(arrayObject[0]);
 
 let anotherUser = {
-    name :"varun",
-    lastname  : "kumar",
-    gmail:"varun@gmail.com",
+    name: "varun",
+    lastname: "kumar",
+    gmail: "varun@gmail.com",
     isLoggedIn: false,
 }
 
@@ -67,6 +67,41 @@ console.log(Object.keys(anotherUser));// here i find key of object or anotherUse
 console.log(Object.values(anotherUser));// here i find the values of anotheruser object
 console.log(Object.entries(anotherUser));// it store in array and give key and value sepratly
 console.log(anotherUser.hasOwnProperty("gmail")); // fro asking question that key is aviable in object or not
+
+//destructure=> Destructuring is a way to extract values from arrays or objects and store them into variables in a short and clean syntax
+
+let MyDetails = {
+    name: "varun",
+    age: 22,
+    gmail: "om.varunkr@gmail.com",
+    higherEducation: "graduate"
+}
+
+const { name, age, gmail, higherEducation } = MyDetails // here i destructure the object and extract value from an object
+console.log(gmail);
+console.log(age);
+console.log(higherEducation);
+console.log(name);
+
+
+// all api comes in json fomrate=> object and array object
+
+//object json api response 
+
+// {
+//     name: "varun",
+//         age: 22,
+//             gmail: "var@gmail.com"
+
+// }
+
+//another json response like array object
+[
+    {},
+    {},
+    {}
+]
+
 
 
 
