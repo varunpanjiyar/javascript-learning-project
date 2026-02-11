@@ -119,6 +119,19 @@ if(findNumber>50){
 }
 
 
+// merge shorted array 
+
+const arr1 = [1,3,4,5];
+const arr2= [2,4,6,8];
+output: [1,2,3,4,4,5,6,8]
+
+const newArr =[...arr1 , ...arr2].sort((a,b)=>a-b)
+console.log(newArr);
+
+
+
+
+
 
 
 
