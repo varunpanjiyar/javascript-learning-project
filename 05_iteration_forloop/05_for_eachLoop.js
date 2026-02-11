@@ -44,3 +44,12 @@ city.forEach((items) => {
     console.log(items.city)
 
 })
+
+
+//higer order function=> higher order function is function it takes anothoer function nas argument And return the function
+
+function name(item){
+    console.log(item);
+    
+}
+city.forEach(name)
