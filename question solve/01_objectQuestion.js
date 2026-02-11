@@ -82,7 +82,7 @@ let mobile = {
 // console.log(Object.entries(mobile).length);
 
 
-// 8️⃣ Convert Object to Array
+//  Convert Object to Array
 let obj1 = {
   a: 1,
   b: 2,
