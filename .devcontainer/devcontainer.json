@@ -27,7 +27,7 @@
 //   "name": "JavaScript Dev Environment",
 //   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
 //   "features": {
-//     "ghcr.io/devcontainers/features/node:1": {
+//     "ghcr.io/devcontainers/features/node:2": {
 //       "version": "20"
 //     }
 //   }
@@ -36,7 +36,7 @@
   "name": "JavaScript Dev Environment",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
   "features": {
-    "ghcr.io/devcontainers/features/node:1": {
+    "ghcr.io/devcontainers/features/node:2": {
       "version": "20"
     }
   },
